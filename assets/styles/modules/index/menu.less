@@ -1,0 +1,92 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.menu {
+  .flex_c();
+
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 25%;
+  border-top-left-radius: 20/16em;
+  border-bottom-left-radius: 20/16em;
+  color: @blue_l1;
+  background-color: @blue;
+
+  &__wrap {
+    width: 100%;
+    padding: 20/16em;
+
+    &:first-of-type {
+      border-top-left-radius: 20/16em;
+      border-bottom-left-radius: 20/16em;
+      line-height: 1;
+      text-align: center;
+      color: @white;
+      background-color: @blue_d1;
+    }
+  }
+
+  &__body {
+    font-size: 12/16rem;
+  }
+
+  &__navigation {
+
+    &-number {
+      flex-basis: 10%;
+    }
+
+    &-text {
+      flex-basis: 80%;
+      line-height: 1.3;
+
+      &:hover {
+        .tr();
+
+        color: @turquoise;
+        cursor: pointer;
+      }
+    }
+
+    &-caption {
+      margin-bottom: 20/20em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &-item {
+      .flex_r();
+
+      justify-content: flex-start;
+      align-items: baseline;
+      margin-bottom: 10/16em;
+
+      &_main {
+        margin: 20/16em 0;
+        border-bottom: 2px solid @blue_l3;
+      }
+
+      &_important {
+        margin: 20/16em 0;
+        font-family: 'Montserrat Medium', 'Arial', sans-serif;
+
+        &:hover {
+          .tr();
+
+          color: @turquoise;
+          cursor: pointer;
+        }
+
+        &:last-of-type {
+          margin-top: -20/16em;
+        }
+      }
+    }
+  }
+}

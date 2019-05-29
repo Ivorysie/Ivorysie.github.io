@@ -1,0 +1,82 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.content {
+  .flex_c();
+
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-basis: 60%;
+  background-color: @white;
+
+  &__wrap {
+
+    &:first-of-type {
+      .flex_r();
+
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 20/16em 60/16em 20/16em 20/16em;
+      background-color: @white;
+    }
+
+    &:last-of-type {
+      padding: 20/16em;
+    }
+  }
+
+  &__caption {
+    font-size: 20/16rem;
+  }
+
+  &__paginator {
+
+    &-icon {
+      font-size: 30/16rem;
+
+      &_home {
+        margin-left: 50/30em;
+      }
+
+      &:hover {
+        .tr();
+
+        color: @turquoise;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__book {
+    text-align: center;
+  }
+
+  &__intro {
+    text-align: center;
+  }
+
+  &__body {
+    margin-bottom: 10/16em;
+    text-indent: 20/16em;
+    text-align: justify;
+
+    &-caption {
+      margin-top: 100/25em;
+      font-size: 25/16em;
+    }
+  }
+
+  &__image {
+    margin: 10/16em 0;
+
+    &-body {
+      margin: 20/16em;
+    }
+  }
+}

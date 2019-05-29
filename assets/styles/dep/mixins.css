@@ -1,0 +1,19 @@
+.flex_r {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+.flex_c {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+.bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tr {
+  transition: 0.3s all ease;
+}
+/*# sourceMappingURL=mixins.css.map */

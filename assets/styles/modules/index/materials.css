@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../../fonts/Montserrat/Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Regular/Montserrat-Regular.woff') format('woff'), url('../../fonts/Montserrat/Regular/Montserrat-Regular.ttf') format('truetype'), url('../../fonts/Montserrat/Regular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('../../fonts/Montserrat/Medium/Montserrat-Medium.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Medium/Montserrat-Medium.woff') format('woff'), url('../../fonts/Montserrat/Medium/Montserrat-Medium.ttf') format('truetype'), url('../../fonts/Montserrat/Medium/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../../fonts/Montserrat/Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Bold/Montserrat-Bold.woff') format('woff'), url('../../fonts/Montserrat/Bold/Montserrat-Bold.ttf') format('truetype'), url('../../fonts/Montserrat/Bold/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url('../../fonts/Montserrat/Black/Montserrat-Black.eot?#iefix') format('embedded-opentype'), url('../../fonts/Montserrat/Black/Montserrat-Black.woff') format('woff'), url('../../fonts/Montserrat/Black/Montserrat-Black.ttf') format('truetype'), url('../../fonts/Montserrat/Black/Montserrat-Black.svg#Montserrat-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../../fonts/Symbols/fontello.eot?694362');
+  src: url('../../fonts/Symbols/fontello.eot?694362#iefix') format('embedded-opentype'), url('../../fonts/Symbols/fontello.woff2?694362') format('woff2'), url('../../fonts/Symbols/fontello.woff?694362') format('woff'), url('../../fonts/Symbols/fontello.ttf?694362') format('truetype'), url('../../fonts/Symbols/fontello.svg?694362#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon_"]:before,
+[class*=" icon_"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon_arrow-left:before {
+  content: '\e800';
+}
+.icon_arrow-right:before {
+  content: '\e801';
+}
+.icon_home:before {
+  content: '\e802';
+}
+.flex_r {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+.flex_c {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+.bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tr {
+  transition: 0.3s all ease;
+}
+/*# sourceMappingURL=materials.css.map */

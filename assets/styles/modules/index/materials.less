@@ -1,0 +1,75 @@
+//Import
+//------------------------------------------------------------------------------
+@import "../../dep/fonts.css";
+@import "../../dep/colors";
+@import "../../dep/constants";
+@import "../../dep/mixins";
+
+//Code
+//------------------------------------------------------------------------------
+.materials {
+  flex-basis: 15%;
+  border-top-right-radius: 20/16em;
+  border-bottom-right-radius: 20/16em;
+  background-color: @gray_d1;
+
+  &__wrap {
+    width: 100%;
+    padding: 20/16em;
+
+    &:first-of-type {
+      border-top-right-radius: 20/16em;
+      line-height: 1;
+      text-align: center;
+      color: @blue;
+      background-color: @gray;
+    }
+  }
+
+  &__group {
+    padding: 10/16em;
+
+    &-caption {
+      margin-top: 20/16em;
+      font-family: 'Montserrat Medium', 'Arial', sans-serif;
+      font-size: 18/16rem;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    &-line {
+      width: 90%;
+      height: 2/16em;
+      margin: 0;
+      margin-bottom: 10/16em;
+      border: 0;
+      border-radius: 50/16em;
+      background-color: @blue;
+    }
+
+    &-list {
+      .flex_c();
+
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    &-item {
+
+    }
+
+    &-link {
+      font-family: 'Montserrat Medium', 'Arial', sans-serif;
+      font-size: 16/16rem;
+      text-decoration: none;
+      color: #5981f5;
+
+      &:hover {
+        .tr();
+
+        color: @turquoise;
+        cursor: pointer;
+      }
+    }
+  }
+}
